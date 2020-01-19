@@ -12,7 +12,7 @@ import Profile from'./components/Profile'
 class App extends Component {
 
   state = {
-    isLoggedIn: window?.localStorage?.isLogged, // user should stay whole time logged so localstorage can simulate that
+    isLoggedIn: window.localStorage?.isLogged, // user should stay whole time logged so localstorage can simulate that
     recievedData: []
   }
   
