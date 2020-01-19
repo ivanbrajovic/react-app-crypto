@@ -1,6 +1,6 @@
 import React from 'react'
 import { useLocation } from "react-router-dom"
-import { Button, Header, Icon, Segment } from 'semantic-ui-react'
+import { Header, Icon, Segment } from 'semantic-ui-react'
 
 const Page404 = () => {
   let location = useLocation()
