@@ -13,4 +13,20 @@ code {
 }
 
 .Body, .Header {
+  max-width: 1000px;
+  width: 100%;
+  margin: 50px auto;
+}
+
+.Body {
+  padding: 20px;
+}
+
+.Header {
+  margin-top: 0;
+}
+
+.Profile .ui.card{
+  margin-left: auto;
   margin-right: auto;
+}
